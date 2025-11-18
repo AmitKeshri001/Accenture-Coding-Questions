@@ -2,8 +2,7 @@ package com.amit;
 
 import java.util.Scanner;
 
-public class Accenture_Q12
-{
+public class Accenture_Q12 {
     /*Int Calculate(int m, int n);
 
     The function accepts 2 positive integer ‘m’ and ‘n’ as its arguments.
@@ -30,18 +29,15 @@ public class Accenture_Q12
         System.out.println("Enter the value of N\n");
         int N = sc.nextInt();
 
-        System.out.println(Calculate(M , N));
+        System.out.println(Calculate(M, N));
         return;
     }
 
-    private static int Calculate(int M , int N)
-    {
+    private static int Calculate(int M, int N) {
         int sum = 0;
 
-        for(int i=M;i<=N;i++)
-        {
-            if(i%3==0 && i%5==0)
-            {
+        for (int i = M; i <= N; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 sum += i;
             }
         }
@@ -49,6 +45,4 @@ public class Accenture_Q12
         return sum;
     }
 
-
 }
-// niviii gadhiiiii
